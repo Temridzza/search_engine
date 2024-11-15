@@ -1,3 +1,19 @@
 {
-    "answers": null
+    "answers": {
+        "request000": {
+            "relevance": [
+                "docid: 7",
+                "rank: 1.000000",
+                "docid: 14",
+                "rank: 1.000000",
+                "docid: 0",
+                "rank: 0.666667",
+                "docid: 1",
+                "rank: 0.666667",
+                "docid: 2",
+                "rank: 0.666667"
+            ],
+            "result": true
+        }
+    }
 }

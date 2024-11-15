@@ -103,7 +103,8 @@ endif()
 add_library(${NLOHMANN_JSON_TARGET_NAME} INTERFACE
         ../src/InvertedIndex.cpp
         ../include/InvertedIndex.h
-        ../include/SearchServer.h)
+        ../include/SearchServer.h
+        ../tests/test.cpp)
 add_library(${PROJECT_NAME}::${NLOHMANN_JSON_TARGET_NAME} ALIAS ${NLOHMANN_JSON_TARGET_NAME})
 if (${CMAKE_VERSION} VERSION_LESS "3.8.0")
     target_compile_features(${NLOHMANN_JSON_TARGET_NAME} INTERFACE cxx_range_for)
